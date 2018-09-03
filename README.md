@@ -5,8 +5,6 @@ The original Pytorch code is found [here](https://github.com/AlexiaJM/Relativist
 
 ## Usage
 
-  1. Download the (Fashion)-MNIST *.csv dataset from kaggle, and place in `./data/fashion-mnist_train.csv`: 
-    - https://www.kaggle.com/oddrationale/mnist-in-csv
-    - https://www.kaggle.com/zalando-research/fashionmnist/data
+  1. Download the ([Fashion](https://www.kaggle.com/zalando-research/fashionmnist/data))-[MNIST](https://www.kaggle.com/oddrationale/mnist-in-csv) *.csv dataset from kaggle, and place in `./data/fashion-mnist_train.csv` .
   2. Create the Logdir: `$ mkdir ./logs/` .
   3. Run `$ python ragan.py` to train using the default hyperparameters, or run `$ python ragan.py -h` for information about the tweakable parameters.
